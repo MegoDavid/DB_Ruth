@@ -54,21 +54,51 @@ public class ConsultaMenu extends javax.swing.JDialog {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
 
         jButton2.setText("Plaza");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 90, -1, -1));
 
         jButton3.setText("Torero");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, -1, -1));
 
         jButton4.setText("Apoderado");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
         jButton5.setText("Toro");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 160, -1, -1));
 
         jButton6.setText("Premio");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 160, -1, -1));
 
         jButton7.setText("Ganaderia");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, -1, -1));
 
         jButton8.setText("Menu principal");
@@ -93,6 +123,42 @@ public class ConsultaMenu extends javax.swing.JDialog {
             Cc.setVisible(true); //OBJETO DEBE SER CORTO
             this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+            ConsultaPlaza Cpl= new ConsultaPlaza(null,true); //codigo para ir a otra pantalla
+            Cpl.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();// TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+            ConsultaTorero Ct= new ConsultaTorero(null,true); //codigo para ir a otra pantalla
+            Ct.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+            ConsultaApoderado Ca= new ConsultaApoderado(null,true); //codigo para ir a otra pantalla
+            Ca.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+            ConsultaToro Ctor= new ConsultaToro(null,true); //codigo para ir a otra pantalla
+            Ctor.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+            ConsultaPremio Cpr= new ConsultaPremio(null,true); //codigo para ir a otra pantalla
+            Cpr.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+            ConsultaGanaderia Cg= new ConsultaGanaderia(null,true); //codigo para ir a otra pantalla
+            Cg.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments

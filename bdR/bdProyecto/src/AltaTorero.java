@@ -43,6 +43,7 @@ public class AltaTorero extends javax.swing.JDialog {
         jTextField6 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -92,6 +93,9 @@ public class AltaTorero extends javax.swing.JDialog {
         jButton1.setText("Guardar");
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, -1, -1));
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 270, 60, 30));
+
+        jButton2.setText("Actualizar");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -148,6 +152,7 @@ public class AltaTorero extends javax.swing.JDialog {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

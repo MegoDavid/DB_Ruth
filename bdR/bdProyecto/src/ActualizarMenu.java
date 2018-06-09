@@ -54,21 +54,51 @@ public class ActualizarMenu extends javax.swing.JDialog {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, -1, -1));
 
         jButton2.setText("Plaza");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, -1, -1));
 
         jButton3.setText("Torero");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 80, -1, -1));
 
         jButton4.setText("Apoderado");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
 
         jButton5.setText("Toro");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, -1, -1));
 
         jButton6.setText("Premio");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 150, -1, -1));
 
         jButton7.setText("Ganaderia");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, -1, -1));
 
         jButton8.setText("Menu principal");
@@ -93,6 +123,42 @@ public class ActualizarMenu extends javax.swing.JDialog {
             Ac.setVisible(true); //OBJETO DEBE SER CORTO
             this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+            ActualizarPlaza Apl= new ActualizarPlaza(null,true); //codigo para ir a otra pantalla
+            Apl.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose(); // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+            ActualizarTorero At= new ActualizarTorero(null,true); //codigo para ir a otra pantalla
+            At.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+            ActualizarApoderado Ap= new ActualizarApoderado(null,true); //codigo para ir a otra pantalla
+            Ap.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+            ActualizarToro Ator= new ActualizarToro(null,true); //codigo para ir a otra pantalla
+            Ator.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+            ActualizarPremio Apr= new ActualizarPremio(null,true); //codigo para ir a otra pantalla
+            Apr.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+            ActualizarGanaderia Ag= new ActualizarGanaderia(null,true); //codigo para ir a otra pantalla
+            Ag.setVisible(true); //OBJETO DEBE SER CORTO
+            this.dispose();         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments
