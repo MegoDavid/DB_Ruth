@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/david/Documents/NetBeansProjects/bdProyecto/src/AltaMenu.java</file>
-            <file>file:/C:/Users/david/Documents/NetBeansProjects/bdProyecto/src/Bienvenida.java</file>
-            <file>file:/C:/Users/david/Documents/NetBeansProjects/bdProyecto/src/Login.java</file>
-            <file>file:/C:/Users/david/Documents/NetBeansProjects/bdProyecto/src/PantallaAdministrador.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaPremio.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaApoderado.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaPlaza.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaGanaderia.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaMenu.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaTorero.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaCorrida.java</file>
+            <file>file:/C:/xampp/htdocs/DB_Ruth/bdR/bdProyecto/src/ConsultaToro.java</file>
         </group>
     </open-files>
 </project-private>

@@ -31,7 +31,7 @@ public class Login extends javax.swing.JDialog {
             Pa.setVisible(true); //OBJETO DEBE SER CORTO
             this.dispose();
         }else{
-            JOptionPane.showMessageDialog(null, "no es la cuenta");
+            JOptionPane.showMessageDialog(null, "usuario o password incorrectos");
         }
     }
 
@@ -50,17 +50,19 @@ public class Login extends javax.swing.JDialog {
         tf_pass = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Usuario");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, -1, -1));
-        getContentPane().add(tf_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 100, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 150, -1, -1));
+        getContentPane().add(tf_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 100, -1));
 
         jLabel2.setText("Contraseña");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, -1));
-        getContentPane().add(tf_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 100, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, -1, -1));
+        getContentPane().add(tf_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, 100, -1));
 
         jButton1.setText("Iniciar cesion");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -68,8 +70,12 @@ public class Login extends javax.swing.JDialog {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 220, -1, -1));
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 290, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/arferda logo.png"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, 130));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 270, 60, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -125,6 +131,8 @@ public class Login extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JTextField tf_pass;
     private javax.swing.JTextField tf_user;
     // End of variables declaration//GEN-END:variables
